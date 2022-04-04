@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
 body {
   display: flex;
   flex-direction: column;
@@ -11,26 +10,16 @@ body {
   color: #31393c;
 }
 
-#morseForm {
+.morseForm {
   padding: 40px;
   border-style: dashed dashed dotted dotted;
   border-color: #2176ff;
   border-width: 5px;
   border-radius: 10px 50px;
   background-color: #33a1fd;
+  display: flex;
+  flex-direction: column;
 }
-
-#inputText {
-  display: block;
-  font-size: 20px;
-}
-
-#outputLabel {
-  display: block;
-  margin-top: 20px;
-}
-
-#outputText {
-  display: block;
+.morseForm__textbox {
   font-size: 20px;
 }

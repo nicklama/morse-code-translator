@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
 
 body {
     display: flex;
@@ -7,46 +6,21 @@ body {
     align-items: center;
     background-color: #f79824;
     font-family: "Send Flowers", cursive;
-    // font-family: "Beau Rivage", cursive;
     font-size: x-large;
     font-weight: bold;
     color: #31393c;
 }
 
-#morseForm {
+.morseForm {
     padding: 40px;
     border-style: dashed dashed dotted dotted;
     border-color: #2176ff;
     border-width: 5px;
     border-radius: 10px 50px;
     background-color: #33a1fd;
+    display: flex;
+    flex-direction: column;
+    &__textbox {
+        font-size: 20px;
+    }
 }
-
-#inputText {
-    display: block;
-    font-size: 20px;
-}
-
-// #translateBtn {
-//     display: block;
-//     margin: 10px 0px;
-// }
-
-#outputLabel {
-    display: block;
-    margin-top: 20px;
-}
-
-#outputText {
-    // border: 1px solid black;
-    display: block;
-    font-size: 20px;
-    // width: 380px;
-    // min-height: 80px;
-    // max-height: auto;
-}
-
-// .how-to-para {
-//     margin: 0;
-//     font-size: 26px;
-// }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <title>Morse Code Translator</title>
+    </head>
+    <body>
+        <header>
+            <h1>Morse Code Translator</h1>
+        </header>
+
+        <form id="morseForm">
+            <label for="inputText">Input:</label>
+            <textarea
+                id="inputText"
+                cols="50"
+                rows="4"
+                placeholder="Enter some text to translate to morse code"
+                required
+            ></textarea>
+
+            <input type="radio" name="convertType" id="checkText" value="text" required checked />
+            <label for="checkText">Text to Morse</label>
+            <input type="radio" name="convertType" id="checkMorse" value="morse" required />
+            <label for="checkMorse">Morse to Text</label>
+            <!-- <button id="translateBtn">Translate</button> -->
+
+            <label id="outputLabel" for="outputText">Output:</label>
+            <textarea id="outputText" cols="50" rows="4" disabled></textarea>
+        </form>
+        <!-- <h2>How to use:</h2>
+        <p class="how-to-para">
+            Select the radio button to specify whether to translate from text or morse code.
+        </p>
+        <p class="how-to-para">
+            When inputting morse, seperate letters with a space and words with a pipe - |
+        </p> -->
+    </body>
+</html>

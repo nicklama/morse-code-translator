@@ -27,7 +27,7 @@ Initially, I had a button to translate the inputted text but I later remodelled 
 
 ## Future of the Project
 
-To extend this project, I could implement some unit testing to ensure that my converter function handles all edge cases and throws an error if given an incorrect input.
+To extend this project, I could implement further unit testing to ensure that my converter function handles all edge cases and throws an error if given an incorrect input.
 
 Another feature that I would like to add is a button that outputs the audio of the converted Morse Code to simulate noises emitted by a real Morse Code telegraph.
 

@@ -4,7 +4,7 @@
 
 The Morse Code Translator was built to utilise JavaScript and DOM skills to create a fully functioning converter between English and Morse Code. The program also handles numbers and symbols such as {. , : ? !}.
 
-![image](https://user-images.githubusercontent.com/100544978/161508937-6747b4eb-a83e-4289-9e5c-fea25ca53c13.png)
+<img width="700" alt="Morse Code Translator" src="https://user-images.githubusercontent.com/100544978/170926077-4788d849-dfbf-4459-b0c7-99587fe13442.png">
 
 ## Implementation
 

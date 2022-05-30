@@ -3,7 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f79824;
+  background-color: rgb(220, 180, 80);
   font-family: "Send Flowers", cursive;
   font-size: x-large;
   font-weight: bold;
@@ -13,10 +13,10 @@ body {
 .morseForm {
   padding: 40px;
   border-style: dashed dashed dotted dotted;
-  border-color: #2176ff;
+  border-color: burlywood;
   border-width: 5px;
   border-radius: 10px 50px;
-  background-color: #33a1fd;
+  background-color: grey;
   display: flex;
   flex-direction: column;
 }
